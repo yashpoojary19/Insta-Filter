@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6A26802273BEF790055F4EA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A26801273BEF790055F4EA /* ImagePicker.swift */; };
 		B6C1E7FF2732BBB900D41B15 /* Insta_FilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */; };
 		B6C1E8012732BBB900D41B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1E8002732BBB900D41B15 /* ContentView.swift */; };
 		B6C1E8032732BBBC00D41B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C1E8022732BBBC00D41B15 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6A26801273BEF790055F4EA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B6C1E7FB2732BBB900D41B15 /* Insta Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_FilterApp.swift; sourceTree = "<group>"; };
 		B6C1E8002732BBB900D41B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */,
 				B6C1E8002732BBB900D41B15 /* ContentView.swift */,
+				B6A26801273BEF790055F4EA /* ImagePicker.swift */,
 				B6C1E8022732BBBC00D41B15 /* Assets.xcassets */,
 				B6C1E8042732BBBC00D41B15 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A26802273BEF790055F4EA /* ImagePicker.swift in Sources */,
 				B6C1E8012732BBB900D41B15 /* ContentView.swift in Sources */,
 				B6C1E7FF2732BBB900D41B15 /* Insta_FilterApp.swift in Sources */,
 			);
