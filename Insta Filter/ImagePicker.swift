@@ -10,35 +10,33 @@ import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
     
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    
     
     
     class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         
         var parent: ImagePicker
         
-        
         init(_ parent: ImagePicker) {
             self.parent = parent
         }
         
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-            if let image = info[.originalImage] as? UIImage {
-                parent.inputImage = image
+            if let uiImg = info[.originalImage] as? UIImage {
+                parent.image = uiImg
             }
             
             parent.presentationMode.wrappedValue.dismiss()
         }
+        
     }
     
-
-    
-    func makeCoordinator() -> Coordinator {
-        Coordinator(self)
-    }
-    
-    @Binding var inputImage: UIImage?
-    @Environment(\.presentationMode) var presentationMode
-    
+    @Binding var image: UIImage?
+    @Environment (\.presentationMode) var presentationMode
     
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let picker = UIImagePickerController()
@@ -49,7 +47,9 @@ struct ImagePicker: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {
         
     }
-   
+    
+    
+    
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6657D1027410A0800338FC8 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6657D0F27410A0700338FC8 /* ImageSaver.swift */; };
 		B6A26802273BEF790055F4EA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A26801273BEF790055F4EA /* ImagePicker.swift */; };
 		B6C1E7FF2732BBB900D41B15 /* Insta_FilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */; };
 		B6C1E8012732BBB900D41B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1E8002732BBB900D41B15 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6657D0F27410A0700338FC8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = SOURCE_ROOT; };
 		B6A26801273BEF790055F4EA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B6A26803274013CF0055F4EA /* Insta-Filter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Insta-Filter-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6C1E7FB2732BBB900D41B15 /* Insta Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 		B6C1E7FD2732BBB900D41B15 /* Insta Filter */ = {
 			isa = PBXGroup;
 			children = (
+				B6657D0F27410A0700338FC8 /* ImageSaver.swift */,
 				B6A26803274013CF0055F4EA /* Insta-Filter-Info.plist */,
 				B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */,
 				B6C1E8002732BBB900D41B15 /* ContentView.swift */,
@@ -265,6 +268,7 @@
 				B6A26802273BEF790055F4EA /* ImagePicker.swift in Sources */,
 				B6C1E8012732BBB900D41B15 /* ContentView.swift in Sources */,
 				B6C1E7FF2732BBB900D41B15 /* Insta_FilterApp.swift in Sources */,
+				B6657D1027410A0800338FC8 /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
