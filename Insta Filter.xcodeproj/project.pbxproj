@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		B6A26801273BEF790055F4EA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B6A26803274013CF0055F4EA /* Insta-Filter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Insta-Filter-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6C1E7FB2732BBB900D41B15 /* Insta Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_FilterApp.swift; sourceTree = "<group>"; };
 		B6C1E8002732BBB900D41B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		B6C1E7FD2732BBB900D41B15 /* Insta Filter */ = {
 			isa = PBXGroup;
 			children = (
+				B6A26803274013CF0055F4EA /* Insta-Filter-Info.plist */,
 				B6C1E7FE2732BBB900D41B15 /* Insta_FilterApp.swift */,
 				B6C1E8002732BBB900D41B15 /* ContentView.swift */,
 				B6A26801273BEF790055F4EA /* ImagePicker.swift */,
@@ -426,6 +428,8 @@
 				DEVELOPMENT_TEAM = 2FRR58PFB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Insta-Filter-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save the filtered photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +459,8 @@
 				DEVELOPMENT_TEAM = 2FRR58PFB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Insta-Filter-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save the filtered photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
